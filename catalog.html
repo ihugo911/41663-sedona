@@ -1,73 +1,112 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Седона</title>
-  </head>
-  <body>
-  		<header class="main-header">
-      <nav class="main-navigation">
-        <ul class="site-navigation">
-          <li><a href="info.html">ИНФОРМАЦИЯ</a></li>
-          <li><a href="media.html">ФОТО И ВИДЕО</a></li>
-          <li><a href="map.html">КАРТА ШТАТА</a></li>
-          <li><a href="catalog.html">ГОСТИНИЦЫ</a></li>
-        </ul>
-        <img src="http://placehold.it/150x100" alt="Фон">
-      </nav>
-      </header>
-     <main class="container">
+<head>
+  <meta charset="utf-8">
+  <title>Седона</title>
+</head>
+<body class="page">
+  <header class="page-header">
+    <nav class="main-navigation">
+      <ul class="site-navigation">
+        <li><a href="info.html">Информация</a></li>
+        <li><a href="media.html">Фото и видео</a></li>
+        <li><a href="map.html">Карта штата</a></li>
+        <li><a href="catalog.html">Гостиницы</a></li>
+      </ul>
+      <img src="http://placehold.it/150x100" alt="Фон">
+    </nav>
+  </header>
+  <main class="container">
+    <section class="user filters">
       <p class="page-title">Найдено: <span class="quantity">3</span></p>
       <p>Сортировка:</p>
-              <ul class="sorting-list">
-                <li><a class="price" href="#">По цене</a></li>
-                <li><a class="type" href="#">По типу</a></li>
-                <li><a class="rating" href="#">По рейтингу</a></li>
-              </ul>
-      <section class="item-hotel">
-        <a href="#" class="item-title">Amara Resort & Spa</a>
-        <p>Гостиница</p>
-        <p>От 4000р.</p>
-            <p class="item-button">
-                    <a href="#" class="item-btn details">Подробнее</a>
-                    <a href="#" class="item-btn book">Забронировать</a>
-                    <p class="rating-text">Рейтинг: 8,5</p>
-            </p>
-            <a href="#" class="item-title">Desert Quail INN</a>
-        <p>Мотель</p>
-        <p>От 3000р.</p>
-            <p class="item-button">
-                    <a href="#" class="item-btn details">Подробнее</a>
-                    <a href="#" class="item-btn book">Забронировать</a>
-                    <p class="rating-text">Рейтинг: 8,9</p>
-            </p>
-            <a href="#" class="item-title">Villas at poco diablo</a>
-        <p>Апартаменты</p>
-        <p>От 2000р.</p>
-            <p class="item-button">
-                    <a href="#" class="item-btn details">Подробнее</a>
-                    <a href="#" class="item-btn book">Забронировать</a>
-                    <p class="rating-text">Рейтинг: 9,2</p>
-            </p>
-      </section>
-      
+      <ul class="sorting-list">
+        <li><a class="price" href="#">По цене</a></li>
+        <li><a class="type" href="#">По типу</a></li>
+        <li><a class="rating" href="#">По рейтингу</a></li>
+      </ul>
+    </section>  
 
- <footer class="main-footer">
-            <p class="footer-visit">
-                #Visitsedona
-            </p>  
-            <div class="footer-social">
-        <ul>
-          <li><a class="social-button" href="#">Твиттер</a></li>
-          <li><a class="social-button" href="#">Фейсбук</a></li>
-          <li><a class="social-button" href="#">Ютуб</a></li>
-        </ul>
-      </div>
-          <p class="footer-copyright">
-        <b>WEBSITE BY</b> 
-        <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
-      </p>
-    </main>
-    </footer>  
-  </body>
+    <section class="item">
+      <ul class="search-result">
+        <li class="search-result-item">
+          <img src="http://placehold.it/150x100" alt="Amara Resort & Spa">
+          <div class="info">
+            <a href="#" class="item-title">Amara Resort & Spa</a>
+            <div class="item-text">
+              <p>Гостиница</p>
+              <p>От 4000р.</p>
+            </div>
+          </div>
+          <div class="item-button">
+            <a href="#" class="item-btn details">Подробнее</a>
+            <a href="#" class="item-btn book">Забронировать</a>
+            <div class="item-rating">
+              <div class="rating-stars">
+                ****
+              </div>
+              <rating>Рейтинг: 8,5</rating>
+            </div>
+          </div>
+        </li>
+        <li class="search-result-item">
+          <img src="http://placehold.it/150x100" alt="Desert Quail Inn">
+          <div class="info">
+            <a href="#" class="item-title">Desert Quail Inn</a>
+            <div class="item-text">
+              <p>Мотель</p>
+              <p>От 2000р.</p>
+            </div>
+          </div>
+          <div class="item-button">
+            <a href="#" class="item-btn details">Подробнее</a>
+            <a href="#" class="item-btn book">Забронировать</a>
+            <div class="item-rating">
+             <div class="rating-stars">
+              ***
+             </div>
+             <rating>Рейтинг: 8,9</rating>
+           </div>
+         </div>
+       </li>
+       <li class="search-result-item">
+        <img src="http://placehold.it/150x100" alt="Villas at Poco Diablo">
+        <div class="info">
+          <a href="#" class="item-title">Villas at Poco Diablo</a>
+          <div class="item-text">
+            <p>Апартаменты</p>
+            <p>От 2000р.</p>
+          </div>
+        </div>
+        <div class="item-button">
+          <a href="#" class="item-btn details">Подробнее</a>
+          <a href="#" class="item-btn book">Забронировать</a>
+          <div class="item-rating">
+           <div class="rating-stars">
+            **
+           </div>
+           <rating>Рейтинг: 9,2</rating>
+         </div>
+       </div>
+     </li>
+   </ul>
+ </section>
+</main>
+<footer class="main-footer">
+  <p class="footer-visit">
+    #Visitsedona
+  </p>  
+  <div class="footer-social">
+    <ul>
+      <li><a class="social-button-tw" href="#">Твиттер</a></li>
+      <li><a class="social-button-fb" href="#">Фейсбук</a></li>
+      <li><a class="social-button-yt" href="#">Ютуб</a></li>
+    </ul>
+  </div>
+  <p class="footer-copyright">
+    <b>WEBSITE BY</b> 
+    <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+  </p>
+</footer>  
+</body>
 </html>
