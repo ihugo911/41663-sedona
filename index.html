@@ -7,15 +7,15 @@
 <body class="page">
   <header class="page-header">
     <nav class="main-navigation">
+      <div class="logo">
+        <img src="img/logo.png" width="138" height="70" alt="Седона">
+      </div>
       <ul class="site-navigation">
         <li><a href="info.html">Иформация</a></li>
         <li><a href="media.html">Фото и видео</a></li>
         <li><a href="map.html">Карта штата</a></li>
         <li><a href="catalog.html">Гостиницы</a></li>
       </ul>
-      <div class="logo">
-        <img src="img/logo.png" alt="Седона">
-      </div>
     </nav>
   </header>
   <main>
@@ -33,7 +33,7 @@
        <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
      </div>
      <div class="reasons-img">
-      <img src="img/reasons-image-01.jpg" alt="Городок">
+      <img src="img/reasons-image-01.jpg" width="512" height="256" alt="Городок">
     </div>
   </section>
   <section class="features">
@@ -59,7 +59,7 @@
     <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
   </div>
   <div class="reasons-reverse-img">
-    <img src="img/reasons-image-02.jpg" alt="Городок">
+    <img src="img/reasons-image-02.jpg" width="512" height="256" alt="Городок">
   </div>
 </section>
 <section class="features gray">
@@ -84,8 +84,50 @@
 <section class="search">
  <h3>Заинтересовались?</h3>
  <p class="search-text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+      <form action="#" method="get" class="search-form">
+        <h3 class="search-form-title">Поиск гостиницы в седоне</h3>
+        <div class="search-form-content">
+            <p>
+              <label for="checkin">Дата заезда:</label>
+              <span class="date-span">
+                <input type="text" id="checkin" class="date-input" value="24 апреля 2017">
+                <label for="checkin" class="search-form-calendar">Дата</label>
+              </span>
+            </p>
+            <p>
+              <label for="checkout">Дата выезда:</label>
+              <span>
+                <input type="text" id="checkout" class="date-input" value="4 июля 2017">
+                <label for="checkout" class="search-form-calendar">Дата</label>
+              </span>
+            </p>
+ <p class="adults">
+              <label for="adults">Взрослые:</label>
+              <span class="input-wrapper">
+                <button class="search-form-minus" href="#">Меньше</button>
+                <input class="people-number" id="adults" type="text" pattern="[0-9]*" value="2" min="0">
+                <button class="search-form-plus" href="#">Больше</button>
+              </span>
+            </p>
+             <p class="children">
+              <label for="children">Взрослые:</label>
+              <span class="input-wrapper">
+                <button class="search-form-minus" href="#">Меньше</button>
+                <input class="people-number" id="adults" type="text" pattern="[0-9]*" value="0" min="0">
+                <button class="search-form-plus" href="#">Больше</button>
+              </span>
+            </p>
+            <input type="submit" value="Найти">
+        </div>
+      </form>
 </section>
+
+
+
 <!-- Здесь будет форма -->
+
+
+
 </main>
 <footer class="main-footer">
    <div class="map"></div>
