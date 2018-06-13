@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title>Седона</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
 </head>
 <body class="page">
   <header class="page-header">
@@ -20,7 +23,7 @@
   </header>
   <main>
     <section class="promo">
-      <img src="http://placehold.it/150x100" alt="Седона горы">
+      <img src="img/bg.jpg" width="768" height="512" alt="Седона горы">
     </section>
     <div class="page-text">
       <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
@@ -39,20 +42,23 @@
   <section class="features">
     <ul class="features-list">
      <li class="feature-item">
+      <img src="img/ico-2.png" width="75" height="72" alt="Жилье">
       <h2>Жилье</h2>
       <p>Рекомендуем пожить в настоящем мотеле, все как в кино</p>
     </li>
     <li class="feature-item">
+      <img src="img/ico-1.png" width="75" height="72" alt="Еда">
       <h2>Еда</h2>
       <p>Всегда заказываейте фирменный бургер, вы не разочаруетесь!</p>
     </li>
     <li class="feature-item">
+      <img src="img/ico-3.png" width="75" height="72" alt="Сувениры">
       <h2>Сувениры</h2>
       <p>Не только китайского, но и местного производства!</p>
     </li>
   </ul>
 </section>
-<section clas="reasons reverse">
+<section clas="reasons-reverse">
   <div class="reasons-reverse-info">
     <h2>Там есть мост дьявола</h2>
     <p>№2</p>
@@ -62,19 +68,19 @@
     <img src="img/reasons-image-02.jpg" width="512" height="256" alt="Городок">
   </div>
 </section>
-<section class="features gray">
+<section class="features-gray">
   <ul class="features-reverse-list">
    <li class="feature-reverse-item">
     <h3>Небольшая площадь</h3>
     <p>№3</p>
     <p>Все достопримечтельности находятся очень близко</p>
   </li>
-  <li class="feature-item">
+  <li class="feature-reverse-item">
     <h3>Красивая дорога</h3>
     <p>№4</p>
     <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
   </li>
-  <li class="feature-item">
+  <li class="feature-reverse-item">
     <h3>Мало туристов</h3>
     <p>№5</p>
     <p>Большинство едет в Гранд Каньон и толпится там</p>
@@ -87,21 +93,21 @@
       <form action="#" method="get" class="search-form">
         <h3 class="search-form-title">Поиск гостиницы в седоне</h3>
         <div class="search-form-content">
-            <p>
+            <p class="adults">
               <label for="checkin">Дата заезда:</label>
               <span class="date-span">
                 <input type="text" id="checkin" class="date-input" value="24 апреля 2017">
                 <label for="checkin" class="search-form-calendar">Дата</label>
               </span>
             </p>
-            <p>
+            <p class="adults">
               <label for="checkout">Дата выезда:</label>
               <span>
                 <input type="text" id="checkout" class="date-input" value="4 июля 2017">
                 <label for="checkout" class="search-form-calendar">Дата</label>
               </span>
             </p>
- <p class="adults">
+            <p class="adults">
               <label for="adults">Взрослые:</label>
               <span class="input-wrapper">
                 <button class="search-form-minus" href="#">Меньше</button>
@@ -109,7 +115,7 @@
                 <button class="search-form-plus" href="#">Больше</button>
               </span>
             </p>
-             <p class="children">
+             <p class="adults">
               <label for="children">Взрослые:</label>
               <span class="input-wrapper">
                 <button class="search-form-minus" href="#">Меньше</button>
@@ -117,20 +123,21 @@
                 <button class="search-form-plus" href="#">Больше</button>
               </span>
             </p>
-            <input type="submit" value="Найти">
+                <span class="btn-search">
+                <input type="submit" value="Найти">
+                </span>
         </div>
       </form>
 </section>
 
 
 
-<!-- Здесь будет форма -->
-
-
 
 </main>
 <footer class="main-footer">
-   <div class="map"></div>
+   <div class="map">
+     <img src="img/map.jpg" width="1718" height="748" alt="карта">
+   </div>
   <p class="footer-visit">
     #Visitsedona
   </p>  
