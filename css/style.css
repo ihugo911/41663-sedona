@@ -37,6 +37,14 @@ body {
 	color: #b2b2b2;
 }
 
+.hotels-filter-infrastructure ul {
+	list-style: none;
+}
+
+.hotels-filter-type ul {
+	list-style: none;
+}
+
 .page-text h1 {
 	font-size: 21px;
 }
