@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <title>Седона</title>
   <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body class="page">
   <header class="page-header">
@@ -21,15 +21,15 @@
       </ul>
     </nav>
   </header>
-  <main>
+  <main class="page-content">
     <section class="promo">
-      <img src="img/bg.jpg" width="768" height="512" alt="Седона горы">
+      <img src="img/bg.jpg" width="1200" height="800" alt="Седона горы">
     </section>
     <div class="page-text">
       <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
       <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
     </div>
-    <section clas="reasons">
+    <section class="reasons">
       <div class="reasons-info">
        <h2>Настоящий городок</h2>
        <p>№1</p>
@@ -41,30 +41,27 @@
   </section>
   <section class="features">
     <ul class="features-list">
-     <li class="feature-item">
-      <img src="img/ico-2.png" width="75" height="72" alt="Жилье">
+     <li class="feature-item-hous">
       <h2>Жилье</h2>
       <p>Рекомендуем пожить в настоящем мотеле, все как в кино</p>
     </li>
-    <li class="feature-item">
-      <img src="img/ico-1.png" width="75" height="72" alt="Еда">
+    <li class="feature-item-Food">
       <h2>Еда</h2>
       <p>Всегда заказываейте фирменный бургер, вы не разочаруетесь!</p>
     </li>
-    <li class="feature-item">
-      <img src="img/ico-3.png" width="75" height="72" alt="Сувениры">
+    <li class="feature-item-Souvenirs">
       <h2>Сувениры</h2>
       <p>Не только китайского, но и местного производства!</p>
     </li>
   </ul>
 </section>
-<section clas="reasons-reverse">
-  <div class="reasons-reverse-info">
+<section class="reasons">
+  <div class="reasons-info">
     <h2>Там есть мост дьявола</h2>
     <p>№2</p>
     <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
   </div>
-  <div class="reasons-reverse-img">
+  <div class="reasons-img">
     <img src="img/reasons-image-02.jpg" width="512" height="256" alt="Городок">
   </div>
 </section>
@@ -90,42 +87,32 @@
 <section class="search">
  <h3>Заинтересовались?</h3>
  <p class="search-text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-      <form action="#" method="get" class="search-form">
+      <form action="https://echo.htmlacademy.ru" method="get" class="search-form">
         <h3 class="search-form-title">Поиск гостиницы в седоне</h3>
         <div class="search-form-content">
-            <p class="adults">
+            <p class="arrival-date adults">
               <label for="checkin">Дата заезда:</label>
-              <span class="date-span">
-                <input type="text" id="checkin" class="date-input" value="24 апреля 2017">
-                <label for="checkin" class="search-form-calendar">Дата</label>
-              </span>
+                <input type="text" id="arrival-date" class="date-input" value="24 апреля 2017">
+                <button for="arrival-date" class="search-form-calendar">Дата</button>
             </p>
-            <p class="adults">
+            <p class="departure-date adults">
               <label for="checkout">Дата выезда:</label>
-              <span>
-                <input type="text" id="checkout" class="date-input" value="4 июля 2017">
-                <label for="checkout" class="search-form-calendar">Дата</label>
-              </span>
+                <input type="text" id="departure-date" class="date-input" value="4 июля 2017">
+                <button for="departure-date" class="search-form-calendar">Дата</button>
             </p>
-            <p class="adults">
+            <p class="half-width adults">
               <label for="adults">Взрослые:</label>
-              <span class="input-wrapper">
-                <button class="search-form-minus" href="#">Меньше</button>
+                <button class="search-form-minus">Меньше</button>
                 <input class="people-number" id="adults" type="text" pattern="[0-9]*" value="2" min="0">
-                <button class="search-form-plus" href="#">Больше</button>
-              </span>
+                <button class="search-form-plus">Больше</button>
             </p>
-             <p class="adults">
-              <label for="children">Взрослые:</label>
-              <span class="input-wrapper">
-                <button class="search-form-minus" href="#">Меньше</button>
+             <p class="half-width children">
+              <label for="children">Дети:</label>
+                <button class="search-form-minus">Меньше</button>
                 <input class="people-number" id="adults" type="text" pattern="[0-9]*" value="0" min="0">
-                <button class="search-form-plus" href="#">Больше</button>
-              </span>
+                <button class="search-form-plus">Больше</button>
             </p>
-                <span class="btn-search">
-                <input type="submit" value="Найти">
-                </span>
+                    <input type="submit" value="Найти">
         </div>
       </form>
 </section>
