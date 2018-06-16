@@ -30,9 +30,13 @@ body {
     width: 1px;
 }
 
-.main-navigation {
-  font-size: 16px;
-  line-height: 20px;
+
+
+.main-navigation li {
+  	font-size: 14px;
+  	line-height: 26px;
+  	font-weight: 700;
+
 }
 
 .site-navigation {
@@ -62,9 +66,11 @@ body {
 
 .page-text h1 {
 	font-size: 21px;
+	line-height: 26px;
 }
 .page-text p{
 	font-size: 14px;
+	line-height: 26px;
 }
 
 .reasons {
@@ -74,6 +80,36 @@ body {
 .feature-item-hous {
 	text-align: center;
 	background: transparent url("../img/ico-2.png") no-repeat;
+}
+
+.feature-item-hous h2 {
+	font-size: 21px;
+	line-height: 21px;
+}
+
+.feature-item-hous p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.feature-item-Food h2 {
+	font-size: 21px;
+	line-height: 21px;
+}
+
+.feature-item-Food p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.feature-item-Souvenirs h2 {
+	font-size: 21px;
+	line-height: 21px;
+}
+
+.feature-item-Souvenirs p {
+	font-size: 14px;
+	line-height: 21px;
 }
 
 .feature-item-Food {
@@ -96,10 +132,12 @@ body {
 
 .reasons-info h2 {
 	font-size: 21px;
+	line-height: 21px;
 }
 
 .reasons-info p {
 	font-size: 14px;
+	line-height: 21px;
 	font-weight: 400;
 }
 
@@ -117,14 +155,17 @@ body {
 
 .feature-reverse-item h3 {
 	font-size: 21px;
+	line-height: 21px;
 }
 
 .feature-reverse-item p {
 	font-size: 14px;
+	line-height: 21px;
 }
 
 .search h3 {
 	font-size: 30px;
+	line-height: 36px;
 	text-align: center;
 }
 
@@ -133,6 +174,7 @@ body {
 }
 .search-text {
 	font-size: 14px;
+	line-height: 24px;
 	text-align: center;
 }
 
@@ -152,7 +194,21 @@ body {
 
 
 .search-form-title {
+	font-size: 21px;
+	line-height: 26px;
 	background-color: #766357;
+}
+
+.adults {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 700;
+}
+
+.children {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 700;
 }
 
 .adults input {
@@ -162,10 +218,17 @@ body {
 }
 
 .half-width input {
-		  font: inherit;
+	  font: inherit;
   	  background-color: #f2f2f2;
   	  border: 0px solid #000000;
 }
+
+.footer-visit {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+}
+
 input[type=submit] {
 	font: inherit;
 	text-align: center;
@@ -176,7 +239,8 @@ input[type=submit] {
   	background: #81b3d2;
   	border: none;
 
-	font-size: 14px;
+	font-size: 21px;
+	line-height: 26px;
 	font-weight: 700;
 }
 
@@ -190,9 +254,29 @@ input[type=submit]:active {
 
 .title {
 	font-size: 16px;
-	font-weight: 400;
+	line-height: 21px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffffff;
 }
 
+.hotels-filter-infrastructure li {
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	text-transform: uppercase;
+} 
+
+.hotels-filter-type li {
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	text-transform: uppercase;
+} 
+
+.hotels-filter-form {
+	color: #ffffff;
+}
 .sorting-list {
 	list-style: none;
 }
@@ -207,26 +291,38 @@ input[type=submit]:active {
 
 .page-title {
 	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 .page-sort {
 	font-size: 12px;
+	line-height: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 
 .price {
 	font-size: 12px;
+	line-height: 18px;
 	color: #81b3d2;
+	text-transform: uppercase;
 }
 
 .type {
 	font-size: 12px;
+	line-height: 18px;
 	color: #cacaca;
+	text-transform: uppercase;
 }
 
 .rating {
 	font-size: 12px;
+	line-height: 18px;
 	color: #cacaca;
+	text-transform: uppercase;
 }
 
 .sorting-list a:hover {
@@ -239,7 +335,9 @@ input[type=submit]:active {
 
 .item-title {
 	font-size: 21px;
+	line-height: 26px;
 	color: #000000;
+	text-transform: uppercase;
 }
 
 .item-text a:hover {
@@ -252,26 +350,25 @@ input[type=submit]:active {
 
 .left-col {
 	font-size: 14px;
+	line-height: 21px;
 	font-weight: 400;
+	text-transform: uppercase;
 }
 
 .right-col {
 	font-size: 14px;
+	line-height: 21px;
 	font-weight: 400;
+	text-transform: uppercase;
 }
 
 .item-btn-details {
-	font: inherit;
-	text-align: center;
-	color: #ffffff;
-
-	vertical-align: middle;
-  	text-transform: uppercase;
-  	background: #81b3d2;
-  	border: none;
-
 	font-size: 14px;
+	line-height: 21px;
 	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffffff;
+  	background: #81b3d2;
 }
 
 .left-col a:hover {
@@ -283,17 +380,13 @@ input[type=submit]:active {
 }
 
 .item-btn-book {
-	font: inherit;
-	text-align: center;
-	color: #ffffff;
-
-	vertical-align: middle;
-  	text-transform: uppercase;
-  	background: #766357;
-  	border: none;
-
 	font-size: 14px;
+	line-height: 21px;
 	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffffff;
+  	background: #766357;
+
 }
 
 .right-col a:hover {
