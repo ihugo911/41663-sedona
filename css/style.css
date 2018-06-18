@@ -5,6 +5,10 @@ html {
 *, *::before, *::after
 	box-sizing: inherit;
 
+@font-face {
+	font-family: 'PT Sans';
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -14,8 +18,7 @@ body {
   font-weight: 400;
   background-color: #ffffff;
   color: #000;
-  text-transform: uppercase;
-
+  text-transform: uppercase;	
  }
 
  a {
@@ -456,9 +459,7 @@ input[type=submit]:active {
 	color: #766860;
 }
 
-.main-footer {
-	display: flex;
-}
+
 
 .footer-social ul {
 	list-style: none;
