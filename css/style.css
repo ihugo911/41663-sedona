@@ -33,8 +33,9 @@ body {
     width: 1px;
 }
 
-
-
+.main-navigation {
+	display: flex;
+}
 .main-navigation li {
   	font-size: 14px;
   	line-height: 26px;
@@ -43,7 +44,7 @@ body {
 }
 
 .site-navigation {
-  	list-style: none;
+  	list-style: none;;
 }
 
 
@@ -223,6 +224,12 @@ body {
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: 700;
+}
+
+.adults input:focus,
+.children input:focus {
+	background-color: #ffffff;
+	border: 2px solid #ebebeb;
 }
 
 .children {
@@ -478,3 +485,4 @@ input[type=submit]:active {
 .promo {
 	margin-bottom: 65px;
 }
+
