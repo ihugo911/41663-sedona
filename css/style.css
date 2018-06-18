@@ -36,7 +36,7 @@ body {
   	font-size: 14px;
   	line-height: 26px;
   	font-weight: 700;
-
+	text-transform: uppercase;
 }
 
 .site-navigation {
@@ -407,3 +407,7 @@ input[type=submit]:active {
 	font-weight: 700;
 }
 
+.page .page-header {
+	margin-bottom: 56px;
+	background-color: #ffffff;
+}
