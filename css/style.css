@@ -40,8 +40,9 @@ body {
 }
 
 .site-navigation {
-  list-style: none;
+  	list-style: none;
 }
+
 
 .site-navigation a {
   color: #000;
@@ -73,11 +74,14 @@ body {
 	font-size: 14px;
 	line-height: 26px;
 	text-transform: uppercase;
+	width: auto;
+	margin-bottom: 50px;
 }
 
 .reasons {
 	background-color: #a3c7de;
 	text-transform: uppercase;
+	min-height: 256px;
 }
 
 .feature-item-hous {
@@ -293,14 +297,38 @@ input[type=submit]:active {
 }
 .sorting-list {
 	list-style: none;
+	display: flex;
 }
 
+.info {
+	display: flex;
+	border-bottom: 2px solid #e5e5e5;
+
+}
+
+.item-hotel-img-wrap {
+	margin: 0 auto;
+}
 .search-result-list {
 	list-style: none;
+	position: relative;
+	margin: 0 auto;
 }
 
 .hotels-filter-form {
 	background: transparent url("../img/filter-bg.jpg") no-repeat;
+	display: flex;
+	width: 100%;
+	min-height: 217px;
+	background-color: #3e719b;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	color: #fff;
+}
+
+.user {
+	display: flex;
 }
 
 .page-title {
@@ -323,6 +351,7 @@ input[type=submit]:active {
 	line-height: 18px;
 	color: #81b3d2;
 	text-transform: uppercase;
+
 }
 
 .type {
@@ -350,9 +379,14 @@ input[type=submit]:active {
 .item-title {
 	font-size: 21px;
 	line-height: 26px;
+	font-weight: 700;
 	color: #000000;
 	text-transform: uppercase;
+	margin-bottom: 7px;
+	text-align: center;
 }
+
+
 
 .item-text a:hover {
 	color: #81b3d2;
@@ -369,11 +403,21 @@ input[type=submit]:active {
 	text-transform: uppercase;
 }
 
+.left-col p{
+	margin-left: 5px;
+}
+
 .right-col {
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: 400;
 	text-transform: uppercase;
+}
+
+.rigt-col p {
+	position: absolute;
+	top: 33px;
+	left: 116px;
 }
 
 .item-btn-details {
@@ -383,6 +427,7 @@ input[type=submit]:active {
 	text-transform: uppercase;
 	color: #ffffff;
   	background: #81b3d2;
+  	text-align: center;
 }
 
 .left-col a:hover {
@@ -400,7 +445,6 @@ input[type=submit]:active {
 	text-transform: uppercase;
 	color: #ffffff;
   	background: #766357;
-
 }
 
 .right-col a:hover {
@@ -410,6 +454,10 @@ input[type=submit]:active {
 
 .right-col a:active {
 	color: #766860;
+}
+
+.main-footer {
+	display: flex;
 }
 
 .footer-social ul {
@@ -424,4 +472,8 @@ input[type=submit]:active {
 .page .page-header {
 	margin-bottom: 56px;
 	background-color: #ffffff;
+}
+
+.promo {
+	margin-bottom: 65px;
 }
