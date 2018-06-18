@@ -67,14 +67,17 @@ body {
 .page-text h1 {
 	font-size: 21px;
 	line-height: 26px;
+	text-transform: uppercase;
 }
 .page-text p{
 	font-size: 14px;
 	line-height: 26px;
+	text-transform: uppercase;
 }
 
 .reasons {
 	background-color: #a3c7de;
+	text-transform: uppercase;
 }
 
 .feature-item-hous {
@@ -85,36 +88,43 @@ body {
 .feature-item-hous h2 {
 	font-size: 21px;
 	line-height: 21px;
+	text-transform: uppercase;
 }
 
 .feature-item-hous p {
 	font-size: 14px;
 	line-height: 21px;
+	text-transform: uppercase;
 }
 
 .feature-item-Food h2 {
 	font-size: 21px;
 	line-height: 21px;
+	text-transform: uppercase;
 }
 
 .feature-item-Food p {
 	font-size: 14px;
 	line-height: 21px;
+	text-transform: uppercase;
 }
 
 .feature-item-Souvenirs h2 {
 	font-size: 21px;
 	line-height: 21px;
+	text-transform: uppercase;
 }
 
 .feature-item-Souvenirs p {
 	font-size: 14px;
 	line-height: 21px;
+	text-transform: uppercase;
 }
 
 .feature-item-Food {
 	text-align: center;
 	background: transparent url("../img/ico-1.png") no-repeat;
+	text-transform: uppercase;
 }
 
 .feature-item-Souvenirs {
@@ -143,6 +153,7 @@ body {
 
 .feature-reverse-item {
 	text-align: center;
+	text-transform: uppercase;
 }
 
 .features-reverse-list {
@@ -167,10 +178,12 @@ body {
 	font-size: 30px;
 	line-height: 36px;
 	text-align: center;
+
 }
 
 .search {
 	text-align: center;
+	text-transform: uppercase;
 }
 .search-text {
 	font-size: 14px;
@@ -227,6 +240,7 @@ body {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700;
+	text-transform: uppercase;
 }
 
 input[type=submit] {
