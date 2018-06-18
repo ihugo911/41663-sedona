@@ -226,12 +226,16 @@ body {
 	font-weight: 700;
 }
 
+.adults input:hover,
+.children input:hover {
+	background-color: #ebebeb;
+}
+
 .adults input:focus,
 .children input:focus {
 	background-color: #ffffff;
 	border: 2px solid #ebebeb;
 }
-
 .children {
 	font-size: 14px;
 	line-height: 26px;
