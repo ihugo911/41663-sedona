@@ -409,6 +409,7 @@ text-transform: uppercase;
 
 .search-form h3:active {
 	color: #857871;
+	background-color: #503e33;
 }
 
 
@@ -957,7 +958,8 @@ text-transform: uppercase
 }
 
 .left-col a:active {
-	color: #5496bd;
+	color: rgba(255, 255, 255, 0.3);  
+  background-color: #5496bd;
 }
 
 .item-btn-book {
