@@ -180,7 +180,7 @@ a {
 
 
 .feature-item.hous {
-		background: #ffffff url("../img/ico-2.png") no-repeat center 61px;
+		background: #ffffff url("../img/ico-2.png") no-repeat center 51px;
 }
 
 .feature-item.hous {
@@ -197,44 +197,11 @@ a {
 
 
 
-.feature-item .three {
-	width: 208px;
-height: 143px;
-color: #333333;
-font-family: "PT Sans";
-font-size: 14px;
-font-weight: 400;
-line-height: 21px;
-text-transform: uppercase;
-}
-
-.feature-item .four {
-width: 262px;
-height: 142px;
-color: #333333;
-font-family: "PT Sans";
-font-size: 14px;
-font-weight: 400;
-line-height: 21px;
-text-transform: uppercase;
-}
-
-
-.feature-item .five {
-width: 246px;
-height: 142px;
-color: #333333;
-font-family: "PT Sans";
-font-size: 14px;
-font-weight: 400;
-line-height: 21px;
-text-transform: uppercase;
-}
 
 
 
 .feature-item.food {
-	background: #ffffff url("../img/ico-1.png") no-repeat center 62px;
+	background: #ffffff url("../img/ico-1.png") no-repeat center 51px;
 }
 
 .feature-item.food {
@@ -252,7 +219,7 @@ text-transform: uppercase;
 
 
 .feature-item.souvenirs {
-	background: #ffffff url("../img/ico-3.png") no-repeat center 57px;
+	background: #ffffff url("../img/ico-3.png") no-repeat center 47px;
 }
 
 .feature-item.souvenirs {
@@ -309,7 +276,7 @@ text-transform: uppercase;
 
 
 .feature-item {
-	padding-top: 163px;
+	padding-top: 135px;
   	text-align: center;
   	min-height: 143px;
   	width: 208px;
@@ -318,8 +285,8 @@ text-transform: uppercase;
 .feature-items {
 	width: 400px;
 	text-align: center;
-	padding-top: 35px;
-	padding-bottom: 40px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	font-family: "PT Sans";
 	font-size: 14px;
 	font-weight: 400;
@@ -331,6 +298,7 @@ text-transform: uppercase;
 	font-size: 21px;
 	font-weight: 700;
 	margin: 0;
+	margin-bottom: 30px;
 }
 
 .feature-items p {
@@ -369,7 +337,7 @@ text-transform: uppercase;
 
 
 .search {
-  padding-top: 15px;
+  padding-top: 10px;
   text-align: center;
   position: relative;	
 }
