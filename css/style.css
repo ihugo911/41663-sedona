@@ -283,7 +283,7 @@ a {
 
 
 .search {
-	padding-top: 5px;
+	padding-top: 18px;
   text-align: center;
   position: relative;	
 }
@@ -314,7 +314,7 @@ a {
 .search-form h3 {
 	font-size: 21px;
 	text-align: center;
-	margin-top: 45px;
+	margin-top: 39px;
 }
 
 .search-form h3:hover {
@@ -383,7 +383,8 @@ a {
 
 
 .adult {
-  margin-bottom: 54px;
+
+  margin-bottom: 52px;
   font-size: 14px;
 	line-height: 26px;
 	font-weight: 700;
@@ -394,6 +395,7 @@ a {
 }
 
 .children {
+  margin-top: 5px; 
   margin-bottom: 54px;
 }
 
@@ -414,12 +416,13 @@ a {
 	line-height: 26px;
 	font-weight: 700;
 	justify-content: space-between;
-	margin-bottom: 20px;
+	margin-bottom: 11px;
 }
 
 .adults label {
-	padding: 6px 0;
+	padding: 9px 0;
 }
+
 
 .adults input:hover,
 .children input:hover {
