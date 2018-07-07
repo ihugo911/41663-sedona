@@ -443,7 +443,8 @@ input[name="date"]:hover + button {
 
 input[name="date"]:focus + button {
 	background-color: #ffffff;
-	border: 0px solid #ebebeb;
+	border: 2px solid #ebebeb;
+	border-left: none;
 	outline: none;
 }
 
