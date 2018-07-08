@@ -852,6 +852,7 @@ input[type=submit]:active {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 52px;
+  margin-top: 10px;
 }
 
 .hotel-rating .star {
@@ -894,7 +895,7 @@ input[type=submit]:active {
 	border-bottom: 1px solid #e5e5e5;
   	padding-bottom: 32px;
   	padding-left: 76px;
-  	padding-top: 23px;
+  	padding-top: 21px;
   	padding-right: 70px;
   	display: flex;
   	flex-wrap: wrap;
@@ -1074,7 +1075,7 @@ input[type=submit]:active {
 .price-controls {
 	position: relative;
   height: 34px;
-  margin-bottom: 20px;
+  margin-bottom: 17px;
   font-size: 0;
   border: 2px solid #ffffff;
   border-radius: 2px;
@@ -1102,8 +1103,9 @@ input[type=submit]:active {
 
 .price-controls .min-price,
 .price-controls .max-price {
-	width: 90px;
+	width: 81px;
 	padding-left: 65px;
+	margin-top: -4px;
 }
 
 .price-controls input {
@@ -1125,7 +1127,7 @@ input[type=submit]:active {
 
 .range-controls {
 	position: relative;
-	margin-bottom: 30px;
+	margin-bottom: 29px;
 }
 
 .range-controls .scale {
@@ -1169,7 +1171,7 @@ input[type=submit]:active {
 	display: block;
 	margin: 0 auto;
 	padding: 6px 35px;
-
+	margin-left: 83px; 
 	font-size: 14px;
 	line-height: 20px;
 	color: #ffffff;
