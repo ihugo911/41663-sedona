@@ -12,7 +12,6 @@ function showForm(e) {
   }
 }
 
-if(btn) {
-	btn.addEventListener('click', showForm);
+if (btn) {
+  btn.addEventListener('click', showForm);
 }
-
