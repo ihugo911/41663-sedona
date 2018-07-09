@@ -169,13 +169,9 @@ a {
   background: #ffffff url("../img/ico-3.png") no-repeat center 59px;
 }
 
-.feature-item.souvenirs {}
-
 .feature-item.house p {
   max-width: 252px;
 }
-
-.feature-item.food p {}
 
 .feature-item h3 {
   margin-bottom: -129px;
@@ -185,11 +181,12 @@ a {
   padding-top: 45px;
   width: 400px;
   text-align: center;
+  padding: 0 50px;
 }
 
 .reasons-info h2 {
-  margin: 0 auto;
-  margin-bottom: 16px;
+  margin: 0 auto -33px;
+  padding: 47px 72px;
 }
 
 .reasons-info p {
@@ -380,7 +377,7 @@ a {
 }
 
 .children:last-of-type label {
-  padding-left: 48px;
+  padding-left: 51px;
 }
 
 .adults {
@@ -396,7 +393,7 @@ a {
 }
 
 .departure-date {
-  margin-bottom: 25px;
+  margin-bottom: 28px;
 }
 
 .adults label {
@@ -416,6 +413,7 @@ a {
   outline: none;
 }
 
+
 input[name="date"]:hover+button {
   background-color: #ebebeb;
   border: 0px solid #ebebeb;
@@ -426,6 +424,7 @@ input[name="date"]:focus+button {
   background-color: #ffffff;
   border: 2px solid #ebebeb;
   border-left: none;
+  border-right: none;
   outline: none;
 }
 
@@ -442,32 +441,28 @@ input[name="date"]:focus+button {
   font: inherit;
   box-sizing: border-box;
   background-color: #f2f2f2;
-  border: 0px solid #000000;
+  border: 2px solid transparent;
   text-transform: uppercase;
 }
 
 .search-form-calendar {
-  position: absolute;
-  top: 0;
-  right: 0;
-  fill: #cacaca;
-  background-color: transparent;
-  padding-top: 7px;
-}
+    position: absolute;
+    top: 0;
+    left: 425px;
+    display: flex;
+    align-items: center;
+    fill: #cacaca;
+    background-color: transparent;
+ }
+
 
 .search-form-calendar:hover,
 .search-form-calendar:focus {
   fill: #000000;
-  border-top: 2px solid #ebebeb;
-  border-right: 2px solid #ebebeb;
-  border-bottom: 2px solid #ebebeb;
 }
 
 .search-form-calendar:active {
   fill: #81b3d2;
-  border-top: 2px solid #ebebeb;
-  border-bottom: 2px solid #ebebeb;
-  border-right-color: 2px solid #ebebeb;
 }
 
 .half-width {
@@ -853,10 +848,7 @@ input[type=submit]:active {
 
 .search-result-item {
   border-bottom: 1px solid #e5e5e5;
-  padding-bottom: 32px;
-  padding-left: 76px;
-  padding-top: 21px;
-  padding-right: 70px;
+  padding: 21px 71px 21px 74px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -922,7 +914,7 @@ input[type=submit]:active {
 }
 
 .map {
-  height: 593px;
+  height: 584px;
 }
 
 .map iframe {
@@ -940,7 +932,7 @@ input[type=submit]:active {
   justify-content: space-between;
   padding-left: 132px;
   padding-right: 101px;
-  padding-top: 38px;
+  padding-top: 47px;
   padding-bottom: 38px;
   background-color: rgba(255, 255, 255, 0.9);
 }
@@ -961,7 +953,7 @@ input[type=submit]:active {
   flex-direction: row;
 }
 
-.footer-social li:nth-child(1) {
+.footer-social li {
   margin-right: 6px;
 }
 

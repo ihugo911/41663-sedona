@@ -1,7 +1,9 @@
 var btn = document.querySelector(".search .search-form-title");
 var form = document.querySelector(".search-form-content");
 
-form.classList.remove('open');
+if(form) {
+	form.classList.remove('open');
+}
 
 function showForm(e) {
   e.preventDefault();
