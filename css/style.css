@@ -453,7 +453,9 @@ input[name="date"]:focus+button {
     fill: #cacaca;
     background-color: transparent;
  }
-
+.search-form-calendar svg {
+	margin: -1px;
+}
 
 .search-form-calendar:hover,
 .search-form-calendar:focus {
