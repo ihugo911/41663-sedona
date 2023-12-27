@@ -1,6 +1,6 @@
 # Личный проект «Седона»
 
-* Студент: [Виталий Кулаков](https://up.htmlacademy.ru/htmlcss/21/user/41663).
+
 * Наставник: [Вадим Новаш](https://up.htmlacademy.ru/htmlcss/21/user/8589).
 
 ---
